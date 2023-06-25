@@ -15,9 +15,9 @@ root.render(
   <BrowserRouter basename="/gh-battle-app/">
     <>
       <Header />
-      <Route path={"/"} exact component={App} />
       <Route path={"/battle"} exact component={Homepage} />
       <Route path={"/battle/results"} component={Scores} />
+      <Route path={"/"} exact component={App} />
     </>
   </BrowserRouter>
 );
