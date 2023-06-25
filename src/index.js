@@ -3,21 +3,24 @@ import ReactDOM from "react-dom/client";
 import "./index.scss";
 import App from "./App";
 import Scores from "./Components/Scores";
+import Header from "./Components/Header";
+import Homepage from "./Components/Homepage";
 import {
   BrowserRouter,
   Route,
+  Switch,
 } from "react-router-dom/cjs/react-router-dom.min";
-import Header from "./Components/Header";
-import Homepage from "./Components/Homepage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <>
       <Header />
-      <Route path={"/battle/results"} component={Scores} />
-      <Route path={"/battle"} exact component={Homepage} />
-      <Route exact path={"/"} component={App} />
+      <Switch>
+        <Route path={"/battle/results"} component={Scores} />
+        <Route path={"/battle"} exact component={Homepage} />
+        <Route exact path={"/"} component={App} />
+      </Switch>
     </>
   </BrowserRouter>
 );
