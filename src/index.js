@@ -18,8 +18,8 @@ root.render(
       <Header />
       <Switch>
         <Route exact path={"/"} component={App} />
-        <Route path={"/battle/results"} exact component={Scores} />
-        <Route path={"/battle"} exact component={Homepage} />
+        <Route path={"/battle/results"} component={Scores} />
+        <Route path={"/battle"} component={Homepage} />
       </Switch>
     </>
   </BrowserRouter>
