@@ -17,9 +17,9 @@ root.render(
     <>
       <Header />
       <Switch>
-        <Route path={"/battle/results"} component={Scores} />
-        <Route path={"/battle"} component={Homepage} />
         <Route exact path={"/"} component={App} />
+        <Route path={"/battle/results"} exact component={Scores} />
+        <Route path={"/battle"} exact component={Homepage} />
       </Switch>
     </>
   </BrowserRouter>
