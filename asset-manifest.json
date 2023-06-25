@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/gh-battle-app/static/css/main.65804083.css",
-    "main.js": "/gh-battle-app/static/js/main.3841f989.js",
+    "main.js": "/gh-battle-app/static/js/main.a3b9ad4b.js",
     "index.html": "/gh-battle-app/index.html",
     "main.65804083.css.map": "/gh-battle-app/static/css/main.65804083.css.map",
-    "main.3841f989.js.map": "/gh-battle-app/static/js/main.3841f989.js.map"
+    "main.a3b9ad4b.js.map": "/gh-battle-app/static/js/main.a3b9ad4b.js.map"
   },
   "entrypoints": [
     "static/css/main.65804083.css",
-    "static/js/main.3841f989.js"
+    "static/js/main.a3b9ad4b.js"
   ]
 }
