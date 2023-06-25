@@ -15,9 +15,9 @@ root.render(
   <BrowserRouter>
     <>
       <Header />
-      <Route path={"/"} exact component={App} />
       <Route path={"/battle"} exact component={Homepage} />
       <Route path={"/battle/results"} component={Scores} />
+      <Route path={"/"} component={App} />
     </>
   </BrowserRouter>
 );
