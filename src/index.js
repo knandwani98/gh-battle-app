@@ -12,12 +12,12 @@ import Homepage from "./Components/Homepage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename="/gh-battle-app">
+  <BrowserRouter>
     <>
       <Header />
-      <Route path={"/battle"} exact component={Homepage} />
       <Route path={"/battle/results"} component={Scores} />
-      <Route path={"/"} exact component={App} />
+      <Route path={"/battle"} exact component={Homepage} />
+      <Route exact path={"/"} component={App} />
     </>
   </BrowserRouter>
 );
