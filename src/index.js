@@ -13,12 +13,12 @@ import {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename="gh-battle-app">
+  <BrowserRouter basename="/gh-battle-app">
     <>
       <Header />
       <Switch>
         <Route exact path={"/battle"} component={Homepage} />
-        <Route path={"/battle/results"} component={Scores} />
+        <Route exact path={"/battle/results"} component={Scores} />
         <Route exact path={"/"} component={App} />
       </Switch>
     </>
