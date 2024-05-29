@@ -1,7 +1,3 @@
-## Demo
-
-https://knandwani98.github.io/gh-battle-app/
-
 ## 🛠 Tech Stack
 
 React, HTML, CSS, SCSS...
